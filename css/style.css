@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fff6b0;
+}
+
+header {
+    background-color: #ffa726;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: white;
+    letter-spacing: 10px;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+.container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.formulario-box {
+    background-color: #ffa726;
+    width: 60%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.form-box h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    flex: 0 0 48%;
+}
+
+.input-field label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+  .input-field input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ddd;
+    font-size: 1rem;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    background-color: #ffa726;
+    text-align: center;
+    padding: 0.5em;
+    color: white;
+    
+}
